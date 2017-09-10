@@ -8,7 +8,7 @@ if (index.name === "Susan") {
 
 
 
-if (abs(index.height) === 70) {
+if (round(index.height) === 70) {
     console.log("The height is correct")
 } else {
     console.log("Expected: 70, Received: "+index.height)
